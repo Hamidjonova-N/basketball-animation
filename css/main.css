@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: 120% 100vh;
+  background-position: right;
+}
+
+main {
+  border-top: 1px solid rgb(1, 1, 107);
+  width: 100%;
+  height: 100vh;
+}
+
+main .ball img {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+}
+
+main .ball {
+  animation-name: maydon;
+  animation-duration: 5s;
+  margin-top: 150px;
+}
+
+@keyframes maydon {
+  0% {
+    margin-top: 20vh;
+    margin-left: 0;
+  }
+  25% {
+    margin-top: 85vh;
+    margin-left: 20%;
+  }
+  45% {
+    margin-top: 21vh;
+    margin-left: 30%;
+  }
+  47% {
+    margin-top: 20.5vh;
+    margin-left: 33%;
+  }
+  50% {
+    margin-top: 20vh;
+    margin-left: 35%;
+  }
+  52% {
+    margin-top: 20.5vh;
+    margin-left: 37%;
+  }
+  55% {
+    margin-top: 21vh;
+    margin-left: 40%;
+  }
+  75% {
+    margin-top: 85vh;
+    margin-left: 55%;
+  }
+  90% {
+    margin-top: 20vh;
+    margin-left: 75%;
+  }
+  100% {
+    margin-top: 25vh;
+    margin-left: 75%;
+  }
+}
